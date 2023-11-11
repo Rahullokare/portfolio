@@ -3,6 +3,8 @@
 import React from "react";
 // import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 import { DropdownMenuIcon, EyeClosedIcon } from "@radix-ui/react-icons";
+import { RxHamburgerMenu, RxCross2 } from "react-icons/rx";
+
 import SocialMedia from "./SocialMedia";
 
 const menuItems = [
@@ -64,7 +66,7 @@ export function Hero() {
             </div>
 
             <div className="ml-2 lg:hidden">
-              <DropdownMenuIcon
+              <RxHamburgerMenu
                 onClick={toggleMenu}
                 className="h-6 w-6 cursor-pointer"
               />
@@ -99,10 +101,7 @@ export function Hero() {
                         >
                           <span className="sr-only">Close menu</span>
                           {/* TODO:Change icon later on */}
-                          <EyeClosedIcon
-                            className="h-6 w-6"
-                            aria-hidden="true"
-                          />
+                          <RxCross2 className="h-6 w-6" aria-hidden="true" />
                         </button>
                       </div>
                     </div>
