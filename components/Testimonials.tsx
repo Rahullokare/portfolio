@@ -1,6 +1,7 @@
 import React from "react";
-import { TestimonialData } from "@/lib/testimonialData";
+
 import TestimonialCard from "./TestimonialCard";
+import { TestimonialData } from "@/lib/testimonialData";
 
 const Testimonials = () => {
   return (

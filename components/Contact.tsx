@@ -12,13 +12,8 @@ const Contact = () => {
             Got a technical issue? Want to send feedback about a beta feature?
             Need details about our Business plan? Let us know.
           </p>
-          <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            className="space-y-8"
-          >
-            <input type="hidden" name="form-name" value="contact" />
+          <form name="contact" data-netlify="true" className="space-y-8">
+            <input type="hidden" name="contact" value="contact" />
             <div>
               <label
                 htmlFor="email"
