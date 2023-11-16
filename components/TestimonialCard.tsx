@@ -51,11 +51,11 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
 
             <div className=" border-gray-300 dark:border-gray-800">
               <div className="flex items-center mt-4 gap-3">
-                <img
+                {/* <img
                   className="h-10 w-10 flex-shrink-0 rounded-full object-cover"
                   src={clientImageSrc}
                   alt=""
-                />
+                /> */}
                 <div className="ml-3 min-w-0">
                   <p className="truncate text-base font-semibold text-gray-800">
                     {clientName}
